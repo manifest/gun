@@ -18,8 +18,8 @@ CI_OTP ?= OTP-19.0.7 OTP-19.1.6 OTP-19.2.3 OTP-19.3.6.2 OTP-20.0.2
 LOCAL_DEPS = ssl
 
 DEPS = cowlib ranch
-dep_cowlib = git https://github.com/ninenines/cowlib master
-dep_ranch = git https://github.com/ninenines/ranch master
+dep_cowlib = git https://github.com/ninenines/cowlib 2.2.0
+dep_ranch = git https://github.com/ninenines/ranch 1.4.0
 
 TEST_DEPS = ct_helper
 dep_ct_helper = git https://github.com/extend/ct_helper.git master
